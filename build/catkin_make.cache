@@ -1,0 +1,2 @@
+learning_pkg
+-DCATKIN_DEVEL_PREFIX=/home/kristin/github/LearningROS/devel -DCMAKE_INSTALL_PREFIX=/home/kristin/github/LearningROS/install -G Unix Makefiles

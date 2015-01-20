@@ -1,0 +1,8 @@
+prefix=/home/kristin/github/LearningROS/install
+
+Name: learning_pkg
+Description: Description of learning_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/kristin/github/LearningROS/install/lib 
+Requires: 

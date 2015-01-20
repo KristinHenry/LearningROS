@@ -5,6 +5,7 @@ project(learning_pkg)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED)
+find_package(catkin REQUIRED COMPONENTS roscpp)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -97,6 +98,7 @@ catkin_package(
 
 ## Declare a cpp executable
 # add_executable(learning_pkg_node src/learning_pkg_node.cpp)
+add_executable(hello hello.cpp)
 
 ## Add cmake target dependencies of the executable/library
 ## as an example, message headers may need to be generated before nodes
@@ -106,6 +108,7 @@ catkin_package(
 # target_link_libraries(learning_pkg_node
 #   ${catkin_LIBRARIES}
 # )
+target_link_libraries(hello ${catkin_LIBRARIES})
 
 #############
 ## Install ##

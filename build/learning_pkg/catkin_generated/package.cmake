@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "learning_pkg")
+set(learning_pkg_MAINTAINER "kristin <kristin@tempoautomation.com>")
+set(learning_pkg_DEPRECATED "")
+set(learning_pkg_VERSION "0.0.0")
+set(learning_pkg_BUILD_DEPENDS "roscpp")
+set(learning_pkg_RUN_DEPENDS "roscpp")
+set(learning_pkg_BUILDTOOL_DEPENDS "catkin")
